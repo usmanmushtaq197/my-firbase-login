@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/eml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/pas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btsigup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="288dp"
+        android:text="LOGIN" />
+    <TextView
+        android:id="@+id/tvsignin"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="309dp"
+        android:textSize="15dp"
+        android:text="NOT REGISTER SIGNUP HERE? " />
+    </RelativeLayout>
